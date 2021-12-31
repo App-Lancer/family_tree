@@ -1,0 +1,24 @@
+digraph familyTree {
+rankdir=LR;
+node [shape = rectangle] [color=black] [width=2];
+"Steffon Baratheon" -> "Robert Baratheon" [label="father"] [width=10];
+"Steffon Baratheon" -> "Stannis Baratheon" [label="father"] [width=10];
+"Steffon Baratheon" -> "Renyl Baratheon" [label="father"] [width=10];
+"Steffon Baratheon" -> "Cassana Estermont" [label="husband"] [width=10];
+"Cassana Estermont" -> "Robert Baratheon" [label="mother"] [width=10];
+"Cassana Estermont" -> "Stannis Baratheon" [label="mother"] [width=10];
+"Cassana Estermont" -> "Renyl Baratheon" [label="mother"] [width=10];
+"Robert Baratheon" -> "Gendry" [label="father"] [width=10];
+"Robert Baratheon" -> "Joffrey Baratheon" [label="father"] [width=10];
+"Robert Baratheon" -> "Myrcella Baratheon" [label="father"] [width=10];
+"Robert Baratheon" -> "Tommen Baratheon" [label="father"] [width=10];
+"Robert Baratheon" -> "Cersei Lannister" [label="husband"] [width=10];
+"Cersei Lannister" -> "Gendry" [label="mother"] [width=10];
+"Cersei Lannister" -> "Joffrey Baratheon" [label="mother"] [width=10];
+"Cersei Lannister" -> "Myrcella Baratheon" [label="mother"] [width=10];
+"Cersei Lannister" -> "Tommen Baratheon" [label="mother"] [width=10];
+"Stannis Baratheon" -> "Shireen Baratheon" [label="father"] [width=10];
+"Stannis Baratheon" -> "Selyse Baratheon" [label="husband"] [width=10];
+"Selyse Baratheon" -> "Shireen Baratheon" [label="mother"] [width=10];
+"Renyl Baratheon" -> "Margaery Tyrell" [label="husband"] [width=10];
+}
